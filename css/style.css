@@ -26,25 +26,27 @@
 
 }
 .ecranul {
+    position: relative;
     align-self: center;
     transition: 1s ease;
 }
 .display{
-    transform: rotate(-45deg) skew(20deg, 20deg) ;
-    margin-top: -6px;
-    margin-left:73px ;
+    transform: rotate(-45deg) skew(20deg, 20deg) translateX(48px) translateY(28px) ;
+
     background-image: url(/img/ecran-inf.webp);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
     position: absolute;
-    width: 155px;
-    height: 155px;
+    width: 154px;
+    height: 154px;
     z-index: 2;
     transform: ;
 }
 .ecran-lego-first{
-    height: 300px;
+    display: flex;
+    height:300px;
     width: 300px;
+
     z-index: 1;
 
 }
