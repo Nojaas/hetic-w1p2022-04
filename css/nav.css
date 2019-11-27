@@ -14,7 +14,7 @@
 
 }
 .market-logo {
-    margin-right: 10px;
+    padding-right: 10px;
     width: 30px;
     height: 35px;
 }
@@ -100,6 +100,7 @@
     display:flex;
     transform: translateX(0px);
     transition: 1s ease;
+    
 }
 .cruce {
     transform: translateY(10px) rotate(45deg);

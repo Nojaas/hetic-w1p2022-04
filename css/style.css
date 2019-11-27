@@ -6,6 +6,8 @@
     grid-template-rows: repeat(3, 1fr);
     background-color:#202231;
     height: 100vh;
+    border: 2px solid red;
+
 }
 .section-a h1 {
     grid-column: 2;
@@ -23,37 +25,63 @@
     font-weight: 100;
     font-size: 15px;
 }
+/* ----------------------------------------------------------------- */
 /* Second Page */
 .section-b {
     width: 100%;
-    display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
-    grid-template-rows: repeat(3, 1fr);
-    background-color:#ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#202231;
     height: 100vh;
+    border: 2px solid red;
 }
 
 .section-b h1 {
-    padding: 0px 0px 40px 0px;
-    grid-column: 2 / 4;
-    grid-row: 1;
-    justify-self: center;
-    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     font-size: 30px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: #fff;    
+    color: #fff; 
 }
-.section-b h2 {
+.section-b p {
+    margin: 10px; 
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+}
 
-    grid-column: 2 / 4;
-    grid-row: 1;
-    justify-self: flex-end;
-    align-self: flex-end;
-    font-size: 18px;
+
+.section-b span {
+
+    justify-self: flex-end ;
+    align-self:flex-end;
+    font-size: 13px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #fff; 
+}
+.ecran-lego {
+    align-self: center;
+    width: 90%;
+    transition: 1s ease;
+}
+/* ----------------------------------------------------------------- */
+/* Third Page */
+.section-c {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#202231;
+    height: 100vh;
+    border: 2px solid red;
+
 }
