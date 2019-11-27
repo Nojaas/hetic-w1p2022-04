@@ -76,8 +76,8 @@
     height:93vh;
     background-color: #202231;
     z-index: 1000;
-    transition: 1s ease;
-    transform: translateY(-110%);
+    transition: 1s ease; 
+    transform: translateY(+110%);
 }
 .sub-menu {
     width: 100%;
