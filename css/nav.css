@@ -95,6 +95,9 @@
     font-size: 30px;
     text-decoration: none;
 }
+.sub-menu li:hover {
+
+}
 
 .ap {
     display:flex;
@@ -103,7 +106,7 @@
     
 }
 .cruce {
-    transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(225deg);
     opacity: 1;
     background-color: #fff;
 }
@@ -113,7 +116,7 @@
     background-color: #fff;
 }
 .cruce3 {
-    transform:translateY(-10px) rotate(-45deg) ;
+    transform:translateY(-10px) rotate(-225deg) ;
     opacity: 1;
     background-color: #fff;
 }

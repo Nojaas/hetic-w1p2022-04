@@ -1,3 +1,4 @@
+// Burger--------------------------------------------------------
 var opener = document.getElementById('burger');
 var x = document.getElementById('exit');
 var y = document.getElementById('exit2');
@@ -14,3 +15,4 @@ opener.addEventListener('click', function () {
 
 
 })
+// ----------------------------------------------------------------

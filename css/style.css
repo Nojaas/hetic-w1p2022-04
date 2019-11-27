@@ -1,19 +1,18 @@
 /* First Page */
 .section-a {
     width: 100%;
-    display: grid;
-    grid-template-columns:1fr auto 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
     border: 2px solid red;
-
 }
 .section-a h1 {
     grid-column: 2;
     grid-row: 1;
     justify-self: center;
-    align-self: flex-end;
+    align-self: center;
     font-size: 35px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +23,30 @@
     vertical-align: super;
     font-weight: 100;
     font-size: 15px;
+
+}
+.ecranul {
+    align-self: center;
+    transition: 1s ease;
+}
+.display{
+    transform: rotate(-45deg) skew(20deg, 20deg) ;
+    margin-top: -6px;
+    margin-left:73px ;
+    background-image: url(/img/ecran-inf.webp);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    z-index: 2;
+    transform: ;
+}
+.ecran-lego-first{
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+
 }
 /* ----------------------------------------------------------------- */
 /* Second Page */
@@ -70,7 +93,9 @@
 }
 .ecran-lego {
     align-self: center;
-    width: 90%;
+    max-width: 377px;
+    width:80%;
+    max-height: 50%;
     transition: 1s ease;
 }
 /* ----------------------------------------------------------------- */
@@ -83,5 +108,53 @@
     background-color:#202231;
     height: 100vh;
     border: 2px solid red;
-
+}
+.section-c h1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff; 
+}
+.section-c p {
+    margin: 10px; 
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+}
+/* ----------------------------------------------------------------- */
+/* 4th page */
+.section-d {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#202231;
+    height: 100vh;
+    border: 2px solid red;
+}
+.section-d h1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff; 
+}
+.section-d p {
+    margin: 10px; 
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
 }
