@@ -49,6 +49,8 @@
 @media (min-width:780px) {
     .section-a h1 {
         font-size: 80px;
+        transition: 1s ease; 
+        transform: translateY(10px);
     }
     .section-a sup {
         font-size: 40px;
