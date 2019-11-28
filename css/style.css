@@ -30,7 +30,7 @@
 .display{
     
     transform: rotate(-45deg) skew(20deg, 20deg) translateX(48px) translateY(28px) ;
-    background-image: url(/img/ecran-inf.webp);
+    background-image: url(/img/lego-loader.gif);
     background-size: cover;
     background-position: center; 
     position: absolute;
