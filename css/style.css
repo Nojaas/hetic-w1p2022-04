@@ -313,10 +313,10 @@
 }
 .s-d-img {
     align-self: center;
-    max-width: 377px;
-    width:80%;
-    height: 377px;
-    max-height: 40%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    max-height: 70%;
     transition: 1s ease;
 }
 .section-d h1 {
@@ -371,10 +371,10 @@
         grid-area: icons;
         justify-self: center ;
         align-self:center;
-        max-width: 90%;
-        width:577px;
-        height:677px ;
-        max-height: 90%;
+        max-width: 120%;
+        width: auto;
+        height: auto;
+        max-height: 120%;
         transition: 1s ease;
     }
     .section-d p {
