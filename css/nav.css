@@ -120,6 +120,7 @@
     }
     .sub-menu a {
         align-self:center ;
+        transition: 1s ease;
     }
 
 }
