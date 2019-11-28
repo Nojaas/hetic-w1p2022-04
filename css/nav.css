@@ -118,12 +118,14 @@
         margin: 25px 0px;
         
     }
-    /*  */
     .sub-menu a {
         align-self:center ;
         transition: 1s ease;
     }
-
+    .nav-bar .logo {
+        width: 105px;
+        height: 55px;
+    }
 }
 .sub-menu a {
     text-transform: uppercase;
