@@ -583,10 +583,6 @@
     font-weight: bold;
     color: #fff;
 }
-.scarry {
-    width: 100%;
-    justify-self: flex-start;
-}
 .condition {
     height: 100px;
     display: flex;
