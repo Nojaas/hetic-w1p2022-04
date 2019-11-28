@@ -46,7 +46,7 @@
     z-index: 1;
 
 }
-@media (min-width:768px) {
+@media (min-width:900px) {
     .section-a h1 {
         font-size: 80px;
     }
@@ -103,7 +103,7 @@
 }
 /* ========================================================= */
 /* Media query */
-@media (min-width:768px){
+@media (min-width:780px){
     .section-b {
         display:grid;
         grid-template-columns: repeat(5, 1fr);
@@ -207,7 +207,7 @@
 }
 /* ========================================================= */
 /* Media query */
-@media (min-width:768px){
+@media (min-width:780px){
     .section-c {
         display:grid;
         grid-template-columns: repeat(4, 1fr);
@@ -322,7 +322,7 @@
 }
 /* ========================================================= */
 /* Media query */
-@media (min-width:768px){
+@media (min-width:780px){
     .section-d {
         display:grid;
         grid-template-columns: repeat(4, 1fr);
@@ -454,7 +454,7 @@
 }
 /* ========================================================= */
 /* Media query */
-@media (min-width:768px) {
+@media (min-width:780px) {
     .section-e {
         width: 100%;
         display: flex;
