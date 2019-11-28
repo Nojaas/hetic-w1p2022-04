@@ -128,6 +128,7 @@
         grid-area: title;
     }
     .s-b-img {
+        transform: translateY(100px) translateX(-50px);
         grid-area: icons;
         justify-self: center;
         max-width: 477px;
