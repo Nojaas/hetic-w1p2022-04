@@ -119,6 +119,7 @@
         
     }
     .sub-menu a {
+        padding: 0px 5px;
         align-self:center ;
         transition: 1s ease;
         opacity: 0;
