@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-a h1 {
     align-self: center;
@@ -46,6 +46,14 @@
     z-index: 1;
 
 }
+@media (min-width:768px) {
+    .section-a h1 {
+        font-size: 80px;
+    }
+    .section-a sup {
+        font-size: 40px;
+    }
+}
 /* ----------------------------------------------------------------- */
 /* Second Page */
 .section-b {
@@ -55,7 +63,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-b h1 {
     display: flex;
@@ -97,12 +105,12 @@
 @media (min-width:768px){
     .section-b {
         display:grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr );
         grid-template-areas: 
-        '. title title . ' 
-        'texts texts icons icons'
-        'texts texts icons icons'
+        '. title title icons icons ' 
+        'texts texts texts icons icons'
+        'texts texts texts icons icons'
         ;
     }
     .section-b h1 {
@@ -117,8 +125,10 @@
     .s-b-img {
         grid-area: icons;
         justify-self: center;
-        max-width: 377px;
+        max-width: 477px;
+        min-width: 477px;
         width:80%;
+        height: 377px;
         max-height: 50%;
         transition: 1s ease;
     }
@@ -127,6 +137,7 @@
         justify-self: center;
         align-self: center;
         width: 80%;
+        max-width: 500px;
         color: #fff;
         font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
@@ -153,7 +164,6 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
 }
 .section-c h1 {
     display: flex;
@@ -257,7 +267,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-d h2 {
     align-self: center;
@@ -308,6 +318,8 @@
 .section-d h1 {
     display: none;
 }
+/* ========================================================= */
+/* Media query */
 @media (min-width:768px){
     .section-d {
         display:grid;
@@ -335,6 +347,7 @@
     }
     .section-d .p2 {
         text-align: center;
+        align-self: end;
         display: grid;
         font-size: 30px;
         grid-column: 2 / 4 ;
@@ -353,14 +366,15 @@
     .s-d-img {
         grid-area: icons;
         justify-self: center ;
-        align-self: start;
-        max-width: 577px;
-        width:80%;
-        height: 80%;
-        max-height: 677%;
+        align-self:center;
+        max-width: 90%;
+        width:577px;
+        height:677px ;
+        max-height: 90%;
         transition: 1s ease;
     }
     .section-d p {
+        max-width: 500px;
         grid-area: texts;
         justify-self: center;
         text-align: start;
@@ -399,7 +413,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-e h1 {
     padding-top: 50px ;
@@ -435,6 +449,63 @@
     width:50%;
     height: 70vh;
     transition: 1s ease;
+}
+/* ========================================================= */
+/* Media query */
+@media (min-width:768px) {
+    .section-e {
+        width: 100%;
+        display: flex;
+        max-width: 100%;
+        position: relative;
+        justify-content: space-evenly;
+        background-color:#202231;
+        height: 100vh;
+    
+    }
+    .section-e .spec h1:nth-child(1) {
+        padding-top: 100px ;
+        text-align: center;
+        align-self: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    .section-e .spec h1:nth-child(3),.section-e .spec h1:nth-child(5),.section-e .spec h1:nth-child(7),.section-e .spec h1:nth-child(9){
+        padding-top: 100px ;
+        text-align: center;
+        align-self: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .spec {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .section-e span {
+        border-radius: 5px;
+        margin-top: 10px;
+        align-self: center; 
+        width: 60%;
+        height: 5px;
+        background-color: #fff;
+    }
+    .s-e-img {
+        margin: 0px 10px;
+        transform: translateY(40px);
+        max-width: 377px;
+        align-self: center;
+        width:50%;
+        height: 70vh;
+        transition: 1s ease;
+    }
 }
 /* ----------------------------------------------------------------- */
 /* 6th Page */
