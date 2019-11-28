@@ -28,8 +28,8 @@
     transition: 1s ease;
 }
 .display{
+    
     transform: rotate(-45deg) skew(20deg, 20deg) translateX(48px) translateY(28px) ;
-
     background-image: url(/img/ecran-inf.webp);
     background-size: cover;
     background-position: center; 
@@ -37,7 +37,7 @@
     width: 154px;
     height: 154px;
     z-index: 2;
-    transform: ;
+
 }
 .ecran-lego-first{
     display: flex;
@@ -58,7 +58,6 @@
     height: 100vh;
     border: 2px solid red;
 }
-
 .section-b h1 {
     display: flex;
     flex-direction: column;
@@ -79,8 +78,6 @@
     font-weight: bold;
     line-height: 30px;
 }
-
-
 .section-b span {
 
     justify-self: flex-end ;
@@ -97,6 +94,46 @@
     width:80%;
     max-height: 50%;
     transition: 1s ease;
+}
+@media (min-width:768px){
+    .section-b {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr );
+        grid-template-areas: 
+        'title title icons icons' 
+        'texts texts icons icons'
+        ;
+    }
+    .section-b h1 {
+        justify-self: center;
+        font-size: 42px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff; 
+        grid-area: title;
+    }
+    .ecran-lego {
+        grid-area: icons;
+        justify-self: center;
+        max-width: 377px;
+        width:80%;
+        max-height: 50%;
+        transition: 1s ease;
+    }
+    .section-b p {
+        grid-area: texts;
+        justify-self: center;
+        align-self: flex-start;
+        width: 80%;
+        color: #fff;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 30px;
+    }
 }
 /* ----------------------------------------------------------------- */
 /* Third Page */
