@@ -400,6 +400,15 @@
     color: #34973f;
   }
 }
+<<<<<<< HEAD
+.s-d-img {
+    align-self: center;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    max-height: 70%;
+    transition: 1s ease;
+=======
 /* ----------------------------------------------------------------- */
 /* 5th Page */
 .section-e {
@@ -410,6 +419,7 @@
   justify-content: space-evenly;
   background-color: #202231;
   height: 100vh;
+>>>>>>> fa90b982d85dd3a188726952cde308a94e866aa2
 }
 .section-e h1 {
   text-align: center;
@@ -436,10 +446,84 @@
   color: #fff;
 }
 
+<<<<<<< HEAD
+        ;
+    }
+    .section-d h1 {
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff; 
+        grid-area: title;
+        display: block;
+    }
+    .section-d .p2 {
+        text-align: center;
+        align-self: end;
+        display: grid;
+        font-size: 30px;
+        grid-column: 2 / 4 ;
+        grid-row: 4/5 ;
+    }
+    .section-d h2 {
+        justify-self: center;
+        align-self: flex-start;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #34973F ; 
+        grid-area: h2;
+    }
+    .s-d-img {
+        grid-area: icons;
+        justify-self: center ;
+        align-self:center;
+        max-width: 120%;
+        width: auto;
+        height: auto;
+        max-height: 120%;
+        transition: 1s ease;
+    }
+    .section-d p {
+        max-width: 500px;
+        grid-area: texts;
+        justify-self: center;
+        text-align: start;
+        align-self: center;
+        width: 80%;
+        color: #fff;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .section-d p span {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        color: #34973F ;
+
+    }
+    .section-d h1 span {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        color: #34973F ;
+    }
+=======
 .spec {
   display: flex;
   flex-direction: column;
   justify-content: center;
+>>>>>>> fa90b982d85dd3a188726952cde308a94e866aa2
 }
 .section-e span {
   border-radius: 5px;
