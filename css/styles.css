@@ -1,0 +1,70 @@
+body {
+  background: #202231;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Compte {
+  width: 320px;
+  margin: 100px auto;
+  font-size: 16px;
+}
+
+.CompteHeader {
+  background: #FEBA12;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.CompteHeader, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Contenu {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.Compte input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 15px;
+  margin-top: 15px;
+  
+  
+}
+
+.Compte input[type="submit"] {
+  background: #feba12;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Compte input[type="submit"]:hover {
+  background: #e09226;
+  color: #fff;
+}
+
+.Compte p {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+:focus:required:valid {
+  border-color: green;
+}
+
+:focus:required:invalid {
+  border-color: red;
+}
+
