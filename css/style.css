@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-a h1 {
     align-self: center;
@@ -46,6 +46,14 @@
     z-index: 1;
 
 }
+@media (min-width:768px) {
+    .section-a h1 {
+        font-size: 80px;
+    }
+    .section-a sup {
+        font-size: 40px;
+    }
+}
 /* ----------------------------------------------------------------- */
 /* Second Page */
 .section-b {
@@ -55,7 +63,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-b h1 {
     display: flex;
@@ -97,12 +105,12 @@
 @media (min-width:768px){
     .section-b {
         display:grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr );
         grid-template-areas: 
-        '. title title . ' 
-        'texts texts icons icons'
-        'texts texts icons icons'
+        '. title title icons icons ' 
+        'texts texts texts icons icons'
+        'texts texts texts icons icons'
         ;
     }
     .section-b h1 {
@@ -117,8 +125,10 @@
     .s-b-img {
         grid-area: icons;
         justify-self: center;
-        max-width: 377px;
+        max-width: 477px;
+        min-width: 350px;
         width:80%;
+        height: 477px;
         max-height: 50%;
         transition: 1s ease;
     }
@@ -153,7 +163,6 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
 }
 .section-c h1 {
     display: flex;
@@ -254,7 +263,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-d h2 {
     align-self: center;
@@ -305,6 +314,8 @@
 .section-d h1 {
     display: none;
 }
+/* ========================================================= */
+/* Media query */
 @media (min-width:768px){
     .section-d {
         display:grid;
@@ -350,11 +361,11 @@
     .s-d-img {
         grid-area: icons;
         justify-self: center ;
-        align-self: start;
-        max-width: 577px;
-        width:80%;
-        height: 80%;
-        max-height: 677%;
+        align-self:center;
+        max-width: 90%;
+        width:577px;
+        height:677px ;
+        max-height: 90%;
         transition: 1s ease;
     }
     .section-d p {
@@ -396,7 +407,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
-    border: 2px solid red;
+
 }
 .section-e h1 {
     padding-top: 50px ;
