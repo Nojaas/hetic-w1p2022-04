@@ -43,7 +43,6 @@
     display: flex;
     height:300px;
     width: 300px;
-
     z-index: 1;
 
 }
@@ -257,7 +256,7 @@
     height: 100vh;
     border: 2px solid red;
 }
-.section-d h1 {
+.section-d h2 {
     align-self: center;
     font-size: 20px;
     text-transform: uppercase;
@@ -266,6 +265,17 @@
     color:#34973F ; 
 }
 .section-d p {
+    text-align: center;
+    align-self: center;
+    width: 70%; 
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+}
+.section-d .p2 {
     text-align: center;
     align-self: center;
     width: 70%; 
@@ -291,6 +301,90 @@
     height: 377px;
     max-height: 40%;
     transition: 1s ease;
+}
+.section-d h1 {
+    display: none;
+}
+@media (min-width:768px){
+    .section-d {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr );
+        grid-template-areas: 
+        '. title title .' 
+        'texts texts icons icons'
+        'texts texts icons icons'
+        '. h2 h2 .'
+
+        ;
+    }
+    .section-d h1 {
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff; 
+        grid-area: title;
+        display: block;
+    }
+    .section-d .p2 {
+        text-align: center;
+        display: grid;
+        font-size: 30px;
+        grid-column: 2 / 4 ;
+        grid-row: 4/5 ;
+    }
+    .section-d h2 {
+        justify-self: center;
+        align-self: flex-start;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #34973F ; 
+        grid-area: h2;
+    }
+    .s-d-img {
+        grid-area: icons;
+        justify-self: center ;
+        align-self: start;
+        max-width: 577px;
+        width:80%;
+        height: 80%;
+        max-height: 677%;
+        transition: 1s ease;
+    }
+    .section-d p {
+        grid-area: texts;
+        justify-self: center;
+        text-align: start;
+        align-self: center;
+        width: 80%;
+        color: #fff;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .section-d p span {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        color: #34973F ;
+
+    }
+    .section-d h1 span {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        color: #34973F ;
+    }
 }
 /* ----------------------------------------------------------------- */
 /* 5th Page */
@@ -331,6 +425,7 @@
     background-color: #fff;
 }
 .s-e-img {
+    margin: 0px 10px;
     transform: translateY(40px);
     max-width: 377px;
     align-self: center;
