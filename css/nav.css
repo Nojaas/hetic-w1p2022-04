@@ -74,7 +74,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: #202231;
     z-index: 1000;
     transition: 1s ease; 
@@ -82,11 +82,11 @@
 }
 .sub-menu {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction:column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .sub-menu img {
     display: none;
@@ -118,12 +118,14 @@
         margin: 25px 0px;
         
     }
-    /*  */
     .sub-menu a {
         align-self:center ;
         transition: 1s ease;
     }
-
+    .nav-bar .logo {
+        width: 105px;
+        height: 55px;
+    }
 }
 .sub-menu a {
     text-transform: uppercase;
