@@ -44,11 +44,12 @@
     height:300px;
     width: 300px;
     z-index: 1;
-
 }
-@media (min-width:900px) {
+@media (min-width:780px) {
     .section-a h1 {
         font-size: 80px;
+        transition: ease 1s;
+        transform:translateY(-10px);
     }
     .section-a sup {
         font-size: 40px;
