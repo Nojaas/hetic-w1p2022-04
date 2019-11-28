@@ -542,8 +542,7 @@
     justify-content: space-between;
 
     background-color:#202231;
-    height: 100vh;
-    border: 2px solid red;
+    height: 50vh;
 }
 .section-g h1 {
     padding-top: 100px;
@@ -574,8 +573,7 @@
     justify-content: space-between;
 
     background-color:#202231;
-    height: 45vh;
-    border: 2px solid red;
+    height: 15vh;
 }
 .section-h h2 {
     font-size: 10px;

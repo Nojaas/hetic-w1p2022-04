@@ -120,6 +120,10 @@
     .sub-menu a {
         align-self:center ;
         transition: 1s ease;
+        opacity: 0;
+    }
+    .sub-menu a:hover {
+        opacity: 1;
     }
     .nav-bar .logo {
         width: 105px;
