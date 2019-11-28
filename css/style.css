@@ -6,6 +6,7 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
+    border-bottom: 20px solid #fff;
 
 }
 .section-a h1 {
@@ -64,6 +65,7 @@
     background-color:#202231;
     height: 110vh;
     padding-top: 10vh;
+    border-bottom: 20px solid #fff;
 
 }
 .section-b h1 {
@@ -113,6 +115,8 @@
         'texts texts texts icons icons'
         'texts texts texts icons icons'
         ;
+        border-bottom: 20px solid #fff;
+
     }
     .section-b h1 {
         justify-self: center;
@@ -166,6 +170,7 @@
     background-color:#202231;
     height: 100vh;
     padding-top: 10vh;
+    border-bottom: 20px solid #fff;
 
 }
 .section-c h1 {
@@ -217,6 +222,8 @@
         'icons icons texts texts '
         'icons icons texts texts '
         ;
+        border-bottom: 20px solid #fff;
+
     }
     .section-c h1 {
         justify-self: center;
@@ -268,6 +275,7 @@
     background-color:#202231;
     height: 100vh;
     padding-top: 10vh;
+    border-bottom: 20px solid #fff;
 
 
 }
@@ -332,8 +340,9 @@
         'texts texts icons icons'
         'texts texts icons icons'
         '. h2 h2 .'
-
         ;
+        border-bottom: 20px solid #fff;
+
     }
     .section-d h1 {
         text-align: center;
@@ -414,6 +423,8 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
+    border-bottom: 20px solid #fff;
+
 
 }
 .section-e h1 {
@@ -474,6 +485,7 @@
         justify-content: space-evenly;
         background-color:#202231;
         height: 100vh;
+        border-bottom: 20px solid #fff;
     
     }
     .section-e .spec h1:nth-child(1) {
