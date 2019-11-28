@@ -121,3 +121,11 @@
     opacity: 1;
     background-color: #fff;
 }
+@media(min-width:768px) {
+    .nav-bar .burger{
+        display: none;
+    }
+    .logo {
+        padding: 10px;
+    }
+}

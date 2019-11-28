@@ -62,7 +62,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color:#202231;
-    height: 100vh;
+    height: 110vh;
+    padding-top: 10vh;
 
 }
 .section-b h1 {
@@ -164,6 +165,8 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
+    padding-top: 10vh;
+
 }
 .section-c h1 {
     display: flex;
@@ -254,9 +257,6 @@
         font-weight: 100;
         color: #fff; 
     }
-    .nav-bar .burger{
-        display: none;
-    }
 }
 /* ----------------------------------------------------------------- */
 /* 4th page */
@@ -267,6 +267,8 @@
     justify-content: space-evenly;
     background-color:#202231;
     height: 100vh;
+    padding-top: 10vh;
+
 
 }
 .section-d h2 {
