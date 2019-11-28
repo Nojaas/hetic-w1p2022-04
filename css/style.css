@@ -527,7 +527,7 @@
     }
     .s-e-img {
         margin: 0px 10px;
-        transform: translateY(75px);
+        transform: translateY(10px);
         align-self: center;
         width:auto;
         height: auto;
