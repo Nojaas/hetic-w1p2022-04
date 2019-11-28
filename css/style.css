@@ -126,9 +126,9 @@
         grid-area: icons;
         justify-self: center;
         max-width: 477px;
-        min-width: 350px;
+        min-width: 477px;
         width:80%;
-        height: 477px;
+        height: 377px;
         max-height: 50%;
         transition: 1s ease;
     }
@@ -137,6 +137,7 @@
         justify-self: center;
         align-self: center;
         width: 80%;
+        max-width: 500px;
         color: #fff;
         font-size: 24px;
         font-family: Arial, Helvetica, sans-serif;
@@ -343,6 +344,7 @@
     }
     .section-d .p2 {
         text-align: center;
+        align-self: end;
         display: grid;
         font-size: 30px;
         grid-column: 2 / 4 ;
@@ -369,6 +371,7 @@
         transition: 1s ease;
     }
     .section-d p {
+        max-width: 500px;
         grid-area: texts;
         justify-self: center;
         text-align: start;
@@ -443,6 +446,63 @@
     width:50%;
     height: 70vh;
     transition: 1s ease;
+}
+/* ========================================================= */
+/* Media query */
+@media (min-width:768px) {
+    .section-e {
+        width: 100%;
+        display: flex;
+        max-width: 100%;
+        position: relative;
+        justify-content: space-evenly;
+        background-color:#202231;
+        height: 100vh;
+    
+    }
+    .section-e .spec h1:nth-child(1) {
+        padding-top: 100px ;
+        text-align: center;
+        align-self: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    .section-e .spec h1:nth-child(3),.section-e .spec h1:nth-child(5),.section-e .spec h1:nth-child(7),.section-e .spec h1:nth-child(9){
+        padding-top: 100px ;
+        text-align: center;
+        align-self: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .spec {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .section-e span {
+        border-radius: 5px;
+        margin-top: 10px;
+        align-self: center; 
+        width: 60%;
+        height: 5px;
+        background-color: #fff;
+    }
+    .s-e-img {
+        margin: 0px 10px;
+        transform: translateY(40px);
+        max-width: 377px;
+        align-self: center;
+        width:50%;
+        height: 70vh;
+        transition: 1s ease;
+    }
 }
 /* ----------------------------------------------------------------- */
 /* 6th Page */
