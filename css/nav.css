@@ -126,6 +126,12 @@
         width: 105px;
         height: 55px;
     }
+    .market-logo {
+        margin-top: 20px;
+        padding: 20px;
+        width: 65px;
+        height: 70px;
+    }
 }
 .sub-menu a {
     text-transform: uppercase;
