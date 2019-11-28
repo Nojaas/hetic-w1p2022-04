@@ -18,6 +18,7 @@
     width: 30px;
     height: 35px;
 }
+
 .burger {
     margin-left: 10px;
     display:grid;
@@ -129,6 +130,12 @@
         width: 105px;
         height: 55px;
     }
+    .market-logo {
+        margin-top: 20px;
+        padding: 20px;
+        width: 65px;
+        height: 70px;
+    }
 }
 .sub-menu a {
     text-transform: uppercase;
@@ -194,3 +201,41 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+
+  .market-logo:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  .bouton {
+    
+    background-color: #202231;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    align-self: center;
+    top: 700px;
+    border: solid 5px #38429B;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 50px;
+   
+  
+  }
+
+  .bouton a {
+      text-transform: none;
+      color: #fff;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+    
+   
