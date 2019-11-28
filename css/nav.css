@@ -121,11 +121,12 @@
     .sub-menu a {
         padding: 0px 5px;
         align-self:center ;
-        transition: 1s ease;
+        transition: 2.5s ease;
         opacity: 0;
     }
     .sub-menu a:hover {
         opacity: 1;
+        transition: 0.2s ease;
     }
     .nav-bar .logo {
         width: 105px;
@@ -213,11 +214,10 @@
   .bouton {
     
     background-color: #202231;
-    position: absolute;
+    position: relative;
     width: 350px;
     height: 40px;
     align-self: center;
-    top: 700px;
     border: solid 5px #38429B;
     border-radius: 10px;
     text-align: center;
