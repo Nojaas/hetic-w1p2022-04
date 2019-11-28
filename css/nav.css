@@ -78,7 +78,7 @@
     background-color: #202231;
     z-index: 1000;
     transition: 1s ease; 
-    transform: translateY(+110%);
+    transform: translateY(+120%) translateX(-120%);
 }
 .sub-menu {
     width: 100%;
@@ -87,6 +87,21 @@
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
+}
+@media (min-width:768px) {
+    .mobile-menu {
+        margin-top: 60px;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0,0,0,0);
+        width: 200px;
+        height: 95vh;
+        z-index: 1000;
+        transition: 1s ease; 
+        transform: translateY(0);
+    }
+
 }
 .sub-menu a {
     text-transform: uppercase;
