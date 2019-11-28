@@ -237,3 +237,27 @@
       font-family: Arial, Helvetica, sans-serif;
     
   }
+
+  .bouton2 {
+    background-color: #202231;
+    position: relative;
+    width: 350px;
+    height: 40px;
+    align-self: center;
+    border: solid 5px red;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 50px;
+  }
+  
+  .bouton2 a {
+    text-transform: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
